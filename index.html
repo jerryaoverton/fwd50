@@ -33,6 +33,28 @@
 	</tr>
 	<tr>
 		<td>
+			Machine learning is when an algorithm gets better with experience. The algorithm learns, from examples, when turning off a light can save energy without disturbing people. AI is when a machine performs a task that human beings find interesting, useful and difficult to do. Your system is artificially intelligent if, for example, it manages a building's devices in ways that conserve energy without disrupting people.
+
+			Below is an application that illustrates how a machine learning algorithm (based on a convolutional neural network) works. The neural network works in sequential layers. At the bottom is the input: the numeral that you drew. At the top is the output: the algorithm's guess at the identity of the numeral. In between are layers of mathematical functions, that detect distinguishing features of the input. The data  is simplified (downsampling) from one layer to the next. The network has two convolutional layer which are mainly concerned with things like edges and shapes. Each of these layers has been tuned, previously, (trained) by running hundreds of thousands of examples through the machine to demonstrate what different types of "3" look like. 
+
+			Despite fears of an impending AI dystopia, its capabilities are still very limited compared to human intelligence. Machine learning algorithms are good at learning new behaviors, but bad at identifying when those behaviors are harmful or don’t make sense. Companies deploying AI will need a highly skilled workforce that’s trained to ensure the technology remains both useful and safe.
+
+			Challenge: Try to draw examples of numerals that should easily be recognized, but are not.
+
+			Questions:
+				1. What happens to the effectiveness of numeral recognition if your organization lacks clear governance of it's CRM data?
+				2. What does the fourth layer of the neural network tell us about the performance of the neural network overall?
+				3. How can we prevent the system from unintentionally learning to identify people from their handwriting?
+
+		</td>
+	</tr>
+	<tr>
+		<td>
+			spacer
+		</td>
+	</tr>
+	<tr>
+		<td>
 			<iframe width="100%" height="615" src="https://scs.ryerson.ca/~aharley/vis/conv/" frameborder="0" allowfullscreen></iframe>
 		</td>
 	</tr>
@@ -43,14 +65,11 @@
 	</tr>
 	<tr>
 		<td>
-			an example of ai
-			1. show the handwriting ml in an ai system
-			2. explain how we go to ai and how the system works
-			
-			challenge to build your own ai
-			1. lets build your own ai
-			2. select one of the four ai challenges describe in this document
-			3. use the app below to design the neural network needed to complete the ai in the challenge
+			AI is particularly critical for the low-carbon economy because it allows for large-scale coordination of local action. From self-regulating buildings to smart-grid operations to energy storage, AI can help sustain the optimal use of natural and industrial resources.  The key to getting started is focus. Find an area in the low-carbon economy that you can make as smart as possible, as quickly as possible. Identify the data that you think might make a real difference. Then test your ideas and learn and adjust as you go.
+
+			Challenge: Use the application below to create and train a neural network capable of powering a "self-driving" building. 
+
+			These graphs in each of the scenarios represent datasets that record patterns of energy-efficient device usage. The data points are colored orange or blue. Blue indicates an example of when it was best to increase power, and orange indicates an example of when it was best to decrease power. For the hidden layers of the network, the lines are colored by the weights of the neural connections. Blue shows a positive weight (the network will uses that output) and an orange line shows a negative weight (the network will ignore that output). The background color shows how the algorithm will behave. The blue region are situations when the machine will choose to increase power, the orange regions are situations where the machine will choose to decrease power. The intensity of the color shows the confidence of the prediction.
 		</td>
 	</tr>
 	<tr>
